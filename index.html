@@ -3,12 +3,30 @@
 
 <head>
   <title> Example Site </title>
+  
+  <meta charset="utf-8">
+
+  <!--Link to StyleSheets in the head-->
+  <link href="styles/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
   <h1> Apple Stock Chart </h1>
   <p>The following chart was adapted from Mike Bostock.</p>
   <a href="example-chart.html">Link to example D3 chart!</a>
+
+  <br>
+
+  <script src="//web.archive.org/web/20160418220302js_/http://d3js.org/d3.v3.min.js"></script>
+  
+  <div id='apple-stock-chart' class= 'chart'>
+  </div>
+
+  <div id='apple-stock-chart-2' class= 'chart'>
+  </div>
+
+  <script src="scripts/chart.js"></script>
+
 </body>
 
 </html>
